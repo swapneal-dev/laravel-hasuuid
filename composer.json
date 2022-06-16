@@ -1,0 +1,17 @@
+{
+    "name": "swapneal-dev/laravel-hasuuid",
+    "description": "Trait for add uuid in models",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SwapnealDev\\LaravelHasUuid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Swapnil Sargar",
+            "email": "52858890+swapneal-dev@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
