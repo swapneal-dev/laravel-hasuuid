@@ -2,7 +2,7 @@
 
 Install using composer<br>
 ```bash
-composer install swapneal-dev/laravel-hasuuid
+composer require swapneal-dev/laravel-hasuuid
 ```
 This package adds a very simple trait to automatically generate a UUID for your Models.
 
