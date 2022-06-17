@@ -28,6 +28,6 @@ It supports only column name uuid;
 You can find by uuid in model;
 
 ```php
-$user = User::findByUuid($uuid);
+$project = Project::findByUuid($uuid);
 ```
 It will return Model object or empty object.
