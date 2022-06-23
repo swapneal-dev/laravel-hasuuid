@@ -11,7 +11,9 @@ trait HasUuid
     {
         static::creating(function (Model $model) {
             $uuidKey = $model->getUuidKey();
-            $model->attributes[$uuidKey] = (string)Str::uuid();
+            if(empty($model->attributes[$uuidKey])){
+                $model->attributes[$uuidKey] = (string)Str::uuid();
+            }
         });
     }
 
