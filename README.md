@@ -23,8 +23,11 @@ class Project extends Model
 
 }
 ```
-It supports only column name uuid;
-
+It supports any column name for uuid default is uuid.<br>
+add below line to your model.
+```php
+public string $uuidKey = 'uuid_key_name';
+```
 You can find by uuid in model;
 
 ```php

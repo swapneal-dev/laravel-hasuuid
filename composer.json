@@ -1,6 +1,7 @@
 {
     "name": "swapneal-dev/laravel-hasuuid",
     "description": "Trait for add uuid in models",
+    "keywords": ["laravel", "uuid", "hasuuid"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -13,5 +14,7 @@
             "email": "52858890+swapneal-dev@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
